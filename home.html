@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moon Tracker</title>
+
+    <link rel="stylesheet" href="home.css">
+    
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Astronomical Data</a>
+    <a href="#">Moon Phases</a>
+    <a href="#">Cultural Implementations</a>
+</nav>
+
+<div class="container">
+    <div class="moon-card">
+        <h2>Current Moon</h2>
+        <div id="moonIcon" class="moon">🌕</div>
+        <h3 id="phaseName">Loading...</h3>
+        <p id="illuminationText">0% Illuminated</p>
+
+        <div class="bar">
+            <div class="fill" id="fill"></div>
+        </div>
+
+        <p id="moonAge"></p>
+    </div>
+</div>
+<script src="home.js"></script>
+
+</body>
+</html>

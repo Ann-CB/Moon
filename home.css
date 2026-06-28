@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Montserrat, sans-serif;
+}
+
+body{
+    background:#E6E1D9;
+    color:#24232A;
+}
+
+/* NAVBAR */
+
+nav{
+    background:#24232A;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:20px;
+}
+
+nav a{
+    color:#FAFAF6;
+    text-decoration:none;
+    font-size:18px;
+    transition:.3s;
+    padding:8px 15px;
+    border-radius:10px;
+}
+
+nav a:hover{
+    background:#6C6A72;
+}
+
+/* MAIN */
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:60px;
+}
+
+.moon-card{
+
+    background:#24232A;
+    color:#FAFAF6;
+
+    width:420px;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+}
+
+.moon{
+
+    font-size:110px;
+
+    margin:20px 0;
+
+    text-shadow:
+    0 0 20px rgba(250,250,246,.5),
+    0 0 40px rgba(250,250,246,.3);
+
+}
+
+h2{
+    margin-bottom:10px;
+}
+
+h3{
+    margin-bottom:15px;
+}
+
+.bar{
+
+    width:100%;
+    height:14px;
+
+    background:#6C6A72;
+
+    border-radius:50px;
+
+    overflow:hidden;
+
+    margin:25px 0;
+
+}
+
+.fill{
+
+    width:0%;
+
+    height:100%;
+
+    background:#FAFAF6;
+
+    transition:width 1.5s ease;
+
+}
+
+#moonAge{
+    margin-top:15px;
+    color:#E6E1D9;
+}
